@@ -7,7 +7,7 @@ import Typography from "@mui/material/Typography";
 import EditDeleteButton from "./EditDeleteButton";
 import { useNavigate } from "react-router-dom";
 // import VisibilityIcon from "@mui/icons-material/Visibility";
-const PostsCard = ({ data }) => {
+const PostsCard = ({ data,setAllPost }) => {
 
 const navigate = useNavigate();  
   const showPost = (id) => {
@@ -39,7 +39,7 @@ const navigate = useNavigate();
         <Typography color="text.secondary">By {data.authorName} ~</Typography>
       </CardContent>
       <CardActions>
-        <EditDeleteButton id={data.id}/>
+        <EditDeleteButton id={data.id} setAllPost={setAllPost}/>
       </CardActions>
     </Card>
   );

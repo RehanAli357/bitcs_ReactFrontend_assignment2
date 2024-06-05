@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "authorName": "Rehan",
+      "blogTitle": "Learn React Js",
+      "blogDescription": "React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies."
+    },
+    {
+      "id": "2",
+      "authorName": "Kunal",
+      "blogTitle": "Nauture Walk",
+      "blogDescription": "Nature is an important and integral part of mankind. It is one of the greatest blessings for human life; however, nowadays humans fail to recognize it as one. Nature has been an inspiration for numerous poets, writers, artists and more of yesteryears. This remarkable creation inspired them to write poems and stories in the glory of it. They truly valued nature which reflects in their works even today."
+    },
+    {
+      "id": "3",
+      "authorName": "Karen",
+      "blogTitle": "Hello World",
+      "blogDescription": "Music is a pleasant sound which is a combination of melodies and harmony and which soothes you. Music may also refer to the art of composing such pleasant sounds with the help of the various musical instruments. A person who knows music is a Musician."
+    },
+    {
+      "id": "4",
+      "authorName": "Martin",
+      "blogTitle": "Power of money",
+      "blogDescription": "The basic function of money is to enable buying to be separated from selling, thus permitting trade to take place without the so-called double coincidence of barter. In principle, credit could perform this function, but, before extending credit, the seller would want to know about the prospects of repayment. That requires much more information about the buyer and imposes costs of information and verification that the use of money avoids."
+    },
+    {
+      "id": "5",
+      "authorName": "Shruti",
+      "blogTitle": "All about blogging",
+      "blogDescription": "A “blog” is an updated version of the old term “weblog,” used to describe websites that maintain an ongoing chronicle of information. A blog features diary-type commentary and links to articles on other websites, usually presented as a list of entries in reverse chronological order. Blogs range from personal to political and can focus on one narrow subject or a whole range of subjects.Many blogs focus on web design, home staging, sports, mobile technology, etc. Few are more eclectic, presenting links to all types of other sites. And others are more like personal journals, presenting the author’s daily life and thoughts."
+    }
+  ]
+}

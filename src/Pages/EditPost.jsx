@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { fetchSinglePost, updatePost } from "../Global/global Functions";
+import { fetchPost, updatePost } from "../Global/globalFunctions";
 import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
@@ -42,7 +42,7 @@ const EditPost = () => {
 
   useEffect(() => {
     if (params.id) {
-      fetchSinglePost(params.id, setPost);
+      fetchPost(params.id, setPost);
     }
   }, [params.id]);
 

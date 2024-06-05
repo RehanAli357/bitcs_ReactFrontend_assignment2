@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { fetchSinglePost } from "../Global/global Functions";
+import { fetchPost } from "../Global/globalFunctions";
 import EditDeleteButton from "../Components/EditDeleteButton";
 const PostPage = () => {
   const [post, setPost] = useState({
@@ -13,9 +13,10 @@ const PostPage = () => {
 
   useEffect(() => {
     if (params.id) {
-      fetchSinglePost(params.id, setPost);
+      fetchPost(params.id, setPost);
     }
   }, [params.id]);
+  console.log(post)
   return (
     <>
       {post ? (
@@ -30,7 +31,7 @@ const PostPage = () => {
             <i>by {post?.authorName} ~</i>
           </p>
           <div className="bg-blue-100">
-            <EditDeleteButton id={params.id} />
+            <EditDeleteButton id={params.id} setAllPost={setPost}/>
           </div>
         </div>
       ) : (
